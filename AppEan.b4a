@@ -1,0 +1,39 @@
+﻿Build1=lerean,com.tssistemas.lerean
+Group=Default Group
+Library1=b4azxing
+Library2=core
+Library3=animation
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: http://www.basic4ppc.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="4" />~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~~\n~AddApplicationText(<activity android:name="ice.zxing.CaptureActivity"~\n~			android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"~\n~			android:theme="@android:style/Theme.NoTitleBar.Fullscreen"~\n~			android:windowSoftInputMode="stateAlwaysHidden">~\n~		</activity>)~\n~		~\n~~\n~'End of default text.~\n~AddPermission("android.permission.INTERNET")~\n~AddPermission("android.permission.ACCESS_NETWORK_STATE")~\n~~\n~AddPermission("android.permission.CAMERA" )~\n~AddPermission("android.permission.WRITE_EXTERNAL_STORAGE" )~\n~AddPermission("android.hardware.camera" )~\n~AddPermission("android.hardware.camera.autofocus" )~\n~AddPermission("android.permission.VIBRATE" )~\n~AddPermission("android.permission.FLASHLIGHT" )~\n~ 
+Module1=Escaneia
+Module2=Starter
+NumberOfFiles=0
+NumberOfLibraries=3
+NumberOfModules=2
+Version=10.7
+@EndOfDesignText@
+#Region Module Attributes
+	#FullScreen: True
+	#IncludeTitle: False
+	#ApplicationLabel: LerEan
+	#VersionCode: 1
+	#VersionName: V1.03
+	#SupportedOrientations: unspecified
+	#CanInstallToExternalStorage: False
+#End Region
+
+'Activity module
+Sub Process_Globals	
+	 
+End Sub
+
+Sub Globals	
+	 StartActivity( Escaneia )
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	 
+	
+End Sub
+
+
+ 
